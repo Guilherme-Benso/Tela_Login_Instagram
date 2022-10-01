@@ -1,4 +1,4 @@
-$cor_principal: rgb(247, 247, 247) ;
+$cor_principal: rgb(247, 247, 247);
 
 
 body {
@@ -8,7 +8,7 @@ body {
     left: 0;
     display: flex;
     flex-direction: column;
-    background-color:$cor_principal;
+    background-color: $cor_principal;
 }
 
 %texto-padrao {
@@ -39,7 +39,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    img{
+
+    img {
         box-shadow: none;
         border: none;
         border-radius: 10px;
@@ -49,8 +50,22 @@ body {
 }
 
 .container-right {
-   display: flex;
-   flex-direction: column;
-   align-items: initial;
-   margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 50px;
+
+    .right-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-right-box {
+        max-width: 400px;
+        background-color: white;
+
+        img {
+            width: 200px;
+        }
+    }
 }
