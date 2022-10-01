@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7; }
+
+.box-top {
+  display: grid;
+  grid-template-columns: 50% auto; }
+
+.box-top {
+  width: 100%;
+  height: 85vh; }
+
+.container-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+  .container-left img {
+    box-shadow: none;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px; }
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  margin-left: 20px; }
