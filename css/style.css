@@ -44,11 +44,26 @@ body {
       border-radius: 4px; }
     .container-right .right-top .right-top-space {
       display: flex;
-      width: 100%; }
-      .container-right .right-top .right-top-space hr {
-        color: black;
-        width: 3rem;
-        height: 1px; }
+      justify-content: center;
+      width: 73%; }
+      .container-right .right-top .right-top-space #left-hr {
+        display: flex;
+        justify-content: end;
+        margin-right: 10px;
+        width: 41%; }
+        .container-right .right-top .right-top-space #left-hr hr {
+          background-color: rgba(0, 0, 0, 0.1);
+          width: 100%;
+          border: none; }
+      .container-right .right-top .right-top-space #right-hr {
+        display: flex;
+        justify-content: initial;
+        margin-left: 10px;
+        width: 41%; }
+        .container-right .right-top .right-top-space #right-hr hr {
+          background-color: rgba(0, 0, 0, 0.1);
+          width: 100%;
+          border: none; }
   .container-right .container-right-box {
     max-width: 350px;
     background-color: white;
