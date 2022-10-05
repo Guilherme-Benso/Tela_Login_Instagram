@@ -44,9 +44,10 @@ body {
         box-shadow: none;
         border: none;
         border-radius: 10px;
-        margin-right: 10px;
+        margin-right:8px;
         height: 580px;
         width: 380px;
+        margin-bottom: 40px;
     }
 
 }
@@ -114,7 +115,7 @@ body {
         max-width: 350px;
         background-color: white;
         height: 400px;
-        border: 1px solid rgba(0, 0, 0, .1);
+        border: 1.5px solid rgba(0, 0, 0, .1);
         a{
             text-decoration: none;
             font-size: 12px;
@@ -147,6 +148,8 @@ body {
     gap: 5px;
     height: 28px;
     align-content: center;
+    margin-top: 10px;
+    margin-bottom: 12px;
 
     a {
         text-align: center;
@@ -154,10 +157,15 @@ body {
         font-family: Arial, Helvetica, sans-serif;
         color: #385185;
         font-weight: 800;
-        font-size: 16px;
+        font-size: 14px !important;
         svg{
             margin-right: 5px;
         }
     }
 
+}
+
+
+.right-mid{
+    
 }
