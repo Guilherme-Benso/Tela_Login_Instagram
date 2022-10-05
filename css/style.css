@@ -23,7 +23,9 @@ body {
     box-shadow: none;
     border: none;
     border-radius: 10px;
-    margin-right: 10px; }
+    margin-right: 10px;
+    height: 580px;
+    width: 380px; }
 
 .container-right {
   display: flex;
@@ -45,7 +47,11 @@ body {
     .container-right .right-top .right-top-space {
       display: flex;
       justify-content: center;
-      width: 73%; }
+      width: 73%;
+      margin-bottom: 10px;
+      color: #8e8e8e;
+      font-family: inherit;
+      font-size: 14px; }
       .container-right .right-top .right-top-space #left-hr {
         display: flex;
         justify-content: end;
@@ -68,7 +74,13 @@ body {
     max-width: 350px;
     background-color: white;
     height: 400px;
-    border: 1px solid rgba(0, 0, 0, 0.1); }
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; }
+    .container-right .container-right-box a {
+      text-decoration: none;
+      font-size: 12px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #385185; }
     .container-right .container-right-box img {
       margin-bottom: 30px;
       width: 200px;
@@ -82,3 +94,18 @@ body {
       border-radius: 5px;
       border: none;
       margin-top: 10px; }
+
+.option-enter {
+  display: flex;
+  gap: 5px;
+  height: 28px;
+  align-content: center; }
+  .option-enter a {
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #385185;
+    font-weight: 800;
+    font-size: 16px; }
+    .option-enter a svg {
+      margin-right: 5px; }
