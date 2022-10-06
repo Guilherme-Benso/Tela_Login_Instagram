@@ -1,5 +1,5 @@
 $cor_principal: rgb(247, 247, 247);
-
+$fonte_padrao: Arial, Helvetica, sans-serif;
 
 body {
     margin: 0;
@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: $cor_principal;
+    font-family: $fonte_padrao;
 }
 
 %texto-padrao {
@@ -167,5 +168,21 @@ body {
 
 
 .right-mid{
-    
+    display: flex;
+    background-color: white;
+    max-width: 350px;
+    height: 60px;
+    border: 1.5px solid rgba(0, 0, 0, .1);
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    span{
+        font-size: 14px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(0, 149, 246);
+        font-weight: 600;
+        font-size: 14px;
+    }
 }
