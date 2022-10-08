@@ -131,12 +131,3 @@ body {
     color: #0095f6;
     font-weight: 600;
     font-size: 14px; }
-
-.right-bottom {
-  margin-top: 20px;
-  max-width: 350px;
-  align-content: center;
-  justify-content: center;
-  text-align: center; }
-  .right-bottom span {
-    margin-bottom: 20px; }
