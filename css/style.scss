@@ -58,6 +58,7 @@ body {
     flex-direction: column;
     margin-left: 20px;
     margin-top: 50px;
+    width: auto;
 
     .right-top {
         display: flex;
@@ -188,6 +189,12 @@ body {
 }
 
 .right-bottom{
-    align-items: center;
-    
+    margin-top: 20px;
+    max-width: 350px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    span{
+        margin-bottom: 20px;
+    }
 }
