@@ -189,5 +189,18 @@ body {
 }
 
 .right-bottom{
-   
+   margin-top: 15px;
+   max-width: 353px;
+   text-align: center;
+   img{
+    margin-top: 20px;
+   }
+   a{
+    text-decoration: none;
+   }
+}
+
+.box-bottom{
+    font-size: 14px;
+    text-align: center;
 }

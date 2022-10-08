@@ -131,3 +131,16 @@ body {
     color: #0095f6;
     font-weight: 600;
     font-size: 14px; }
+
+.right-bottom {
+  margin-top: 15px;
+  max-width: 353px;
+  text-align: center; }
+  .right-bottom img {
+    margin-top: 20px; }
+  .right-bottom a {
+    text-decoration: none; }
+
+.box-bottom {
+  font-size: 14px;
+  text-align: center; }
