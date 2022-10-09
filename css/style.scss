@@ -194,23 +194,32 @@ body {
    max-width: 353px;
    text-align: center;
    img{
-    margin-top: 20px;
+    margin-top: 16px;
    }
    a{
     text-decoration: none;
    }
 }
 
-.box-bottom{
+.box-bottom-1{
     display: flex;
-    font-size: 14px;
+    font-size: 13px;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
     font-family: inherit;
     color: rgba(142, 142, 142, 1);
-    height: 60px;
+    
     .text{
         width: calc(auto);
         height: 20px;
     }
+}
+.box-bottom-2{
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    gap: 10px;
+    font-family: inherit;
+    color: rgba(142, 142, 142, 1);
+    margin-top: 5px;
 }

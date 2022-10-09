@@ -138,18 +138,26 @@ body {
   max-width: 353px;
   text-align: center; }
   .right-bottom img {
-    margin-top: 20px; }
+    margin-top: 16px; }
   .right-bottom a {
     text-decoration: none; }
 
-.box-bottom {
+.box-bottom-1 {
   display: flex;
-  font-size: 14px;
+  font-size: 13px;
   justify-content: center;
-  gap: 5px;
+  gap: 10px;
   font-family: inherit;
-  color: #8e8e8e;
-  height: 60px; }
-  .box-bottom .text {
+  color: #8e8e8e; }
+  .box-bottom-1 .text {
     width: calc(auto);
     height: 20px; }
+
+.box-bottom-2 {
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+  gap: 10px;
+  font-family: inherit;
+  color: #8e8e8e;
+  margin-top: 5px; }
