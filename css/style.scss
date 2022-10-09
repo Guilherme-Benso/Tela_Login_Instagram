@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     background-color: $cor_principal;
     font-family: $fonte_padrao;
+    justify-content: center;
 }
 
 %texto-padrao {
@@ -58,6 +59,7 @@ body {
     flex-direction: column;
     margin-left: 20px;
     margin-top: 50px;
+    width: auto;
 
     .right-top {
         display: flex;
@@ -188,5 +190,36 @@ body {
 }
 
 .right-bottom{
+   margin-top: 15px;
+   max-width: 353px;
+   text-align: center;
+   img{
+    margin-top: 16px;
+   }
+   a{
+    text-decoration: none;
+   }
+}
+
+.box-bottom-1{
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    gap: 10px;
+    font-family: inherit;
+    color: rgba(142, 142, 142, 1);
     
+    .text{
+        width: calc(auto);
+        height: 20px;
+    }
+}
+.box-bottom-2{
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    gap: 10px;
+    font-family: inherit;
+    color: rgba(142, 142, 142, 1);
+    margin-top: 5px;
 }
