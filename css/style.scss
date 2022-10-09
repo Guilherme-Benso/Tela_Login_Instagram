@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     background-color: $cor_principal;
     font-family: $fonte_padrao;
+    justify-content: center;
 }
 
 %texto-padrao {
@@ -204,8 +205,12 @@ body {
     display: flex;
     font-size: 14px;
     justify-content: center;
-
+    gap: 5px;
     font-family: inherit;
     color: rgba(142, 142, 142, 1);
-    
+    height: 60px;
+    .text{
+        width: calc(auto);
+        height: 20px;
+    }
 }
