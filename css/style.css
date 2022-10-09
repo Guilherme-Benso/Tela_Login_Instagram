@@ -142,5 +142,8 @@ body {
     text-decoration: none; }
 
 .box-bottom {
+  display: flex;
   font-size: 14px;
-  text-align: center; }
+  justify-content: center;
+  font-family: inherit;
+  color: #8e8e8e; }
