@@ -169,4 +169,6 @@ body {
   width: 100%; }
 
 #select-lang {
-  width: 120px; }
+  width: 120px;
+  background-color: #fafafa;
+  border: none; }
